@@ -2,4 +2,5 @@ esnext
 mauriciobraz
 prenem
 princessmortix
+tailwindcss
 toolbelt
