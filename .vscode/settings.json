@@ -1,0 +1,23 @@
+{
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+
+  "cSpell.dictionaries": ["Prenem"],
+  "cSpell.dictionaryDefinitions": [
+    {
+      "addWords": true,
+      "name": "Prenem",
+      "path": "${workspaceFolder}/.vscode/cspell-dict.txt"
+    }
+  ],
+
+  "cSpell.language": "en,pt-BR",
+  "cSpell.useGitignore": true,
+
+  "material-icon-theme.folders.associations": {
+    "cspell": "i18n",
+    "dotenv": "environment",
+    "workflows": "flow"
+  }
+}

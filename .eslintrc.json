@@ -1,0 +1,14 @@
+{
+  "extends": ["universe/web", "next/core-web-vitals"],
+  "rules": {
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "internal", ["parent", "index", "sibling"], "type"],
+        "pathGroups": [{ "group": "internal", "pattern": "~/**" }],
+        "alphabetize": { "order": "asc" },
+        "newlines-between": "always"
+      }
+    ]
+  }
+}
